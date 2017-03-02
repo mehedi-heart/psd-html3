@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Sansita');
+
+body{
+    font-family: 'Sansita', sans-serif;
+font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+#header-area .form-control {
+    height: 45px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.cart {
+ display: table;
+float: right;
+}
+.cart img {
+ display: table-cell;
+}
+.cart span {
+ display: table-cell;
+color: #a1a1a1;
+font-size: 28px;
+vertical-align: middle;
+padding-left: 13px;
+    font-family: 'Sansita', sans-serif;
+}
+
+#header-area {
+  padding: 20px 0;
+}
+
+#menu-area {
+  background: RGB(76, 207, 193);
+  padding: 6px 0;
+}
+#menu-area a {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+   font-family: 'Sansita', sans-serif;
+  text-decoration: none;
+}
+.list-inline.menu {
+  text-align: center;
+}
+.list-inline.menu li {
+  padding: 2px 18px;
+  position: relative;
+}
+.list-inline.menu li:after {
+  position: absolute;
+  content: "";
+  top: 22%;
+  left: 0;
+  background: #fff;
+  height: 80%;
+  width: 2px;
+}
+.list-inline.menu li:first-child:after {
+    display: none;
+}
+.wrapper {
+  position: relative;
+}
+.wrapper:after {
+  position: absolute;
+content: "";
+right: 3%;
+top: 10%;
+font-size: 25px;
+height: 10px;
+font-family: FontAwesome;
+content: "\f002";
+display: block;
+color: rgba(161, 161, 161, 0.74);
+pointer-events: none;
+}
+
+#banner-area {
+  background: #39c7b7;
+  padding: 50px 0;
+    height: 78vh;
+}
+
+.carousel-indicators {
+    bottom: -62px;
+}
+.carousel-control{
+    opacity: 0;
+}
+
+.carousel-control:hover{
+    opacity: 0;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-10%);
+  -webkit-transform: translate(-50%,-10%);
+  -webkit-transform: translate(-50%,-10%);
+  text-align: left;
+    text-shadow: 0 1px 2px transparent;
+}
+.carousel-caption h1 {
+  font-size: 45px;
+  color: #fff;
+  text-transform: uppercase;
+    font-family: 'Sansita', sans-serif;
+    font-weight: bold;
+}
+.carousel-caption p{
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-custom{
+    display: inline-block;
+    color: #fff;
+    font-family: 'Sansita', sans-serif;
+    font-size: 20px;
+    padding: 8px 20px;
+    text-decoration: none;
+    border: 3px solid #fff;
+   margin-top: 5px;
+}
+.btn-custom:hover{
+    color: #fff;
+}
+
+.row.product h4 {
+  color: #afafaf;
+  font-family: 'Sansita', sans-serif;
+  text-transform: uppercase;
+  font-size: 27px;
+}
+.btn.btn-customize {
+  display: inline-block;
+  color: #fff;
+  font-size: 17px;
+  background: rgb(57, 199, 183);
+  font-family: 'Sansita', sans-serif;
+  text-transform: uppercase;
+  padding: 7px 10px;
+}
+#product-area {
+  padding: 25px 0;
+  background: #fff;
+}
+.product img{
+    margin: 0 auto;
+}
+#feature-area{
+    overflow: hidden;
+}
+
+#feature-area .col-sm-12 h1 {
+  font-family: 'Sansita', sans-serif;
+  font-size: 31px;
+  color: #fff;
+  position: relative;
+  text-transform: uppercase;
+}
+#feature-area .col-sm-12 h1:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  background: rgb(57, 199, 183);
+  width: 100%;
+  height: 90%;
+  z-index: -1;
+  transform: scale(2);
+  -webkit-transform: scale(2);
+  -webkit-transform: scale(2);
+}
+
+.row.feature h4 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'Sansita', sans-serif;
+  color: rgb(175, 175, 175);
+}
+.row.feature {
+  text-align: center;
+    margin-top: 45px;
+    margin-bottom: 70px;
+}
+.buy span {
+  font-size: 26px;
+  margin-right: 8px;
+  font-family: 'Sansita', sans-serif;
+  color: #afafaf;
+}
+
+.thumbnail {
+    padding: 33px 17px;
+    width: 78%;
+    border-bottom: 4px solid rgb(57, 199, 183);
+    border-radius: 0;
+}
+#feature-area .col-sm-4 {
+    height: 300px;
+}
+#footer-area h1 {
+  font-size: 27px;
+  text-transform: uppercase;
+  font-family: 'Sansita', sans-serif;
+    color: #fff;
+    
+}
+
+
+#footer-area ul {
+  margin: 0;
+  padding: 0;
+}
+#footer-area ul li {
+  list-style: none;
+}
+#footer-area ul li a {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  margin-bottom: 2px;
+  color: #fff;
+}
+#footer-area {
+  background: rgb(57, 199, 183);
+    overflow: hidden;
+}
+
+#footer-area ul li a:hover {
+  text-decoration: none;
+}
+
+
+.row.footer p {
+  color: #fff;
+  font-size: 15px;
+}
+.row.footer {
+  position: relative;
+  margin-top: 25px;
+  z-index: 1;
+  text-align: center;
+    
+}
+.row.footer:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 28px;
+  background: #2da89b;
+  transform: scale(2);
+  -webkit-transform: scale(2);
+  -webkit-transform: scale(2);
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

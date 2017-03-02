@@ -1,0 +1,32 @@
+@media (max-width:1200px){
+    .carousel-caption h1{
+        font-size: 23px !important;
+    }
+      .carousel-caption p{
+        font-size: 15px !important;
+    }
+}
+@media (max-width:767px){
+    .carousel-caption{
+        display: none !important;
+    }
+}
+@media (max-width:992px){
+  #feature-area .col-sm-4 {
+    margin-bottom: 25px;
+}
+}
+@media (max-width:767px){
+.row.product {
+    text-align: center;
+}
+    .row.product .col-sm-4 {
+    margin-bottom: 20px;
+}
+    .row.feature .thumbnail {
+    width: 100%;
+}
+    #footer-area {
+    text-align: center;
+}
+}
